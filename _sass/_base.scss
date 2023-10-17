@@ -810,3 +810,29 @@ html.transition *:after {
     }
   }
 }
+
+.th.news {
+  display: flex;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  background: rgba(144, 0, 58, 0.3); /* Define your gradient colors */
+  color: #000000; /* Text color */
+  font-weight: bold; /* Make the text bold if desired */
+  text-align: center; /* Center-align the text */
+  border-radius: 10px; /* Add rounded corners */
+  margin: 5px 2px 5px 2px;
+  padding: 5px 2px 5px 2px;
+  font-size:x-small;
+  line-height: 1; /* Adjust the line-height as needed to control the height */
+  min-width: 75px; /* Set a minimum width for consistency */
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+tr{
+  display: flex;
+  align-items: center;
+}

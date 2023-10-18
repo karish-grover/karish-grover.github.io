@@ -6,10 +6,11 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Karish
 middle_name:
 last_name: Grover
-email: karish19471@iiitd.ac.in
+email: karishg@cs.cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a senior undergraduate at IIIT Delhi, pursuing Computer Science and Artifical Intelligence. My interests lie in Natural Language Processing, Graph Machine Learning, Explainable Deep Learning and Hyperbolic Geometry.ooter_text: >
-keywords: karish grover, karish, iiitd  # add your own keywords or leave empty
+I am a first year Ph.D. student in the Machine Learning Department at Carnegie Mellon University, advised by Prof. Christos Faloutsos and Prof. Geoffrey J. Gordon. 
+footer_text: >
+keywords: karish grover, karish, cmu, carnegie mellon university, phd  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ▶︎  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

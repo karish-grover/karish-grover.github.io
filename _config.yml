@@ -7,9 +7,10 @@ first_name: Karish
 middle_name:
 last_name: Grover
 email: karishg@cs.cmu.edu
-description: > I am a Ph.D. student in the Machine Learning Department at Carnegie Mellon University, advised by Prof. Christos Faloutsos and Prof. Geoffrey J. Gordon. 
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  I am a Ph.D. student at Carnegie Mellon University, advised by Prof. Christos Faloutsos and Prof. Geoffrey J. Gordon.
 footer_text: >
-keywords: karish grover, karish, cmu, carnegie mellon university, phd  # add your own keywords or leave empty
+keywords: karish grover, karish, cmu, phd, carnegie mellon university  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ▶︎  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

@@ -7,6 +7,8 @@ nav: true
 nav_order: 5
 ---
 
+- Conferred with the [Best Undergrad Thesis Award](https://www.iiitd.ac.in/convocation2023/) (Gold Medal) at IIIT Delhi.
+
 - Awarded the prestigious [Microsoft Research Travel Grant](https://www.microsoft.com/en-us/research/academic-program/academic-outreach/) worth `1800 USD` for attending the [NeurIPS 2022](https://neurips.cc/) conference at New Orleans, LA. <span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2022</span>
 
 - Undergraudate thesis [paper](https://arxiv.org/abs/2209.13017) at [NeurIPS 2022](https://neurips.cc/) was selected as **Spotlight paper**.  Only **184** out **10411** `(1.76%)` full submissions (184/2665 ~ `6.9%`  accepted ones) were selected as Oral/Spotlight at NeurIPS 2022. <span class = "awardTag"><a href="https://arxiv.org/abs/2209.13017" class="btn btn-sm z-depth-0" role="button">Paper</a></span><span class = "awardTag"><a href="https://twitter.com/Tanmoy_Chak/status/1584826709089857536?s=20&t=EF3BbynKx0UF3P6HMcgIJA" class="btn btn-sm z-depth-0" role="button">Social Media</a></span><span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2022</span></span>

@@ -67,3 +67,17 @@ Classification tasks, respectively, and third place with an RMSE score of
   pdf = {http://ceur-ws.org/Vol-2943/haha_paper10.pdf},
   preview={sepln_preview.png},
 }
+
+
+@article{ghosh2024dependency,
+  abbr ={WWW},
+  title={Dependency Aware Incident Linking in Large Cloud Systems},
+  author={Ghosh, Supriyo and Grover, Karish and Wong, Jimmy and Bansal, Chetan and Namineni, Rakesh and Verma, Mohit and Rajmohan, Saravan},
+  journal={Companion Proceedings of the ACM on Web Conference 2024},
+  pages={141--150},
+  year={2024},
+  selected={true},
+  preview = {dlink.png},
+  pdf={https://dl.acm.org/doi/abs/10.1145/3589335.3648311},
+  abstract = {Despite significant reliability efforts, large-scale cloud services inevitably experience production incidents that can significantly impact service availability and customer satisfaction. Worse, in many cases one incident can lead to multiple downstream failures due to cascading effects that create several related incidents across different dependent services. Often time On-call Engineers (OCEs) examine these incidents in silos that lead to significant amounts of manual effort and increase the overall time-to-mitigate incidents. Therefore, developing efficient incident linking models is of paramount importance for grouping related incidents into clusters so as to quickly resolve major outages and reduce on-call fatigue. Existing incident linking methods mostly leverage textual and contextual information of incidents (e.g., title, description, severity, impacted components), thus failing to leverage the inter-dependencies between services. In this paper, we propose the dependency-aware incident linking (DiLink) framework which leverages both textual and service dependency graph information to improve the accuracy and coverage of incident links not only emerge from same service, but also from different services and workloads. Furthermore, we propose a novel method to align the embeddings of multi-modal (i.e., textual and graphical) data using Orthogonal Procrustes. Extensive experimental results on real-world incidents from 5 workloads of Microsoft demonstrate that our alignment method has an F1-score of 0.96 (14\% gain over current state-of-the-art methods). We are also in the process of deploying this solution across 610 services from these 5 workloads for continuously supporting OCEs improving incident management and reducing manual effort.}
+}

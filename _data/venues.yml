@@ -6,6 +6,10 @@
   color: "var(--global-theme-color)"
   abbr: "ICLR"
 
+"ICML":
+  color: "var(--global-theme-color)"
+  abbr: "ICML"
+
 "WWW":
   color: "var(--global-theme-color)"
   abbr: "WWW"

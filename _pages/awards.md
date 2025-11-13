@@ -7,7 +7,11 @@ nav: true
 nav_order: 5
 ---
 
-- Conferred with the [Best Undergrad Thesis Award](https://www.iiitd.ac.in/convocation2023/) (Gold Medal) at IIIT Delhi.
+- Received the **[Meta AIM Ph.D. Fellowship](https://ml.cmu.edu/honors-and-awards/student-awards)** (a.y. **2025–2026**) to support my research, as part of the [Meta AI Mentorship program](https://www.metacareers.com/careerprograms/research?tab=AI+Mentorship). <span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2025</span>
+
+- Honored to receive the **[Amazon AI Ph.D. Fellowship](https://www.cs.cmu.edu/news/2025/amazon-phd-fellows)** to support my Ph.D. research for academic years **2025–2027**. <span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2025</span>
+
+- Conferred with the [Best Undergrad Thesis Award](https://www.iiitd.ac.in/convocation2023/) (Gold Medal) at IIIT Delhi.<span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2023</span>
 
 - Awarded the prestigious [Microsoft Research Travel Grant](https://www.microsoft.com/en-us/research/academic-program/academic-outreach/) worth `1800 USD` for attending the [NeurIPS 2022](https://neurips.cc/) conference at New Orleans, LA. <span class = "awardTag-year"><span class="btn btn-sm z-depth-0" role = "">2022</span>
 

@@ -50,15 +50,15 @@ I am also currently a **Visiting Researcher at Meta** (Pittsburgh, PA), where I 
 
 I have also spent time as a research intern at [Amazon Science (AWS)](https://www.amazon.science/locations/san-francisco-bay-area), [Microsoft Research India](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), and [LinkedIn](https://www.linkedin.com) AI, working on problems around graph learning, misinformation, fraud detection, and large-scale incident analysis through the lens of geometric deep learning. Before joining CMU, I completed my B.Tech in [Computer Science and Artificial Intelligence](https://www.iiitd.ac.in/academics/btech/csai) at [IIIT Delhi](https://www.iiitd.ac.in/) (June 2023). At IIIT, I was a member of the [Laboratory for Computational Social Systems (LCS2)](https://www.lcs2.in/), where I worked on my undergraduate thesis advised by [Dr. Tanmoy Chakraborty](https://www.tanmoychak.com/). 
 
-##### *Fellowships & Support*
+##### **Fellowships & Support**
 
 I'm honored that my research is supported by:
 
-- **[Amazon AI Ph.D. Fellowship](https://www.cs.cmu.edu/news/2025/amazon-phd-fellows)** (a.y. 2025–2027)  
-- **[Meta AIM Ph.D. Fellowship](https://www.metacareers.com/careerprograms/research?tab=AI+Mentorship)** (a.y. 2025–2026)
+- [Amazon AI Ph.D. Fellowship](https://www.cs.cmu.edu/news/2025/amazon-phd-fellows) (a.y. 2025–2027)  
+- [Meta AIM Ph.D. Fellowship](https://www.metacareers.com/careerprograms/research?tab=AI+Mentorship) (a.y. 2025–2026)
 
 
-##### *Research Interests*
+##### **Research Interests**
 <!-- 
 <div style="font-size:0.85rem; margin:0.2rem 0 0.4rem;">
   <strong>Conference venues published at:</strong>

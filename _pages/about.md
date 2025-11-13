@@ -44,7 +44,7 @@ social: true  # includes social icons at the bottom of the page
   </span>
 </div>
 
-I am a Ph.D. student in the [Machine Learning Department](https://www.ml.cmu.edu) at [Carnegie Mellon University](https://www.cmu.edu), advised by [Prof. Christos Faloutsos](http://www.cs.cmu.edu/~christos/) and [Prof. Geoffrey J. Gordon](http://www.cs.cmu.edu/~ggordon/). Broadly, I work on **geometric and graph learning**, with a focus on non-Euclidean (mixed-curvature) representation learning, geometric foundational models for graphs and text.
+I am a Ph.D. student in the [Machine Learning Department](https://www.ml.cmu.edu) at [Carnegie Mellon University](https://www.cmu.edu), advised by [Prof. Christos Faloutsos](http://www.cs.cmu.edu/~christos/) and [Prof. Geoffrey J. Gordon](http://www.cs.cmu.edu/~ggordon/). Broadly, I work on **geometric and graph learning**, with a focus on non-Euclidean (mixed-curvature) representation learning and geometric foundational models for graphs and text.
 
 I am also currently a **Visiting Researcher at Meta** (Pittsburgh, PA), where I am working with the Modern Recommendation Systems (MRS) team on how geometry (curvature) can inform large-scale generative recommendation systems in practice.
 
@@ -95,7 +95,7 @@ I’m always excited to collaborate at the intersection of geometry, graphs, and
 
 <div class="home-avatar-wrapper" style="text-align:center; margin:-5rem 0 1.1rem;">
   <img class="home-avatar" src="/assets/img/karish_profile.jpg" alt="Karish Grover"
-       style="height:12rem; width:12rem; border-radius:50%; object-fit:cover; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+       style="height:12rem; width:12rem; border-radius:10%; object-fit:cover; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
   <div style="font-size:0.85em; color:#555; margin-top:0.5rem; line-height:1.4;">
     8013, Gates Hillman Center<br/>
     Carnegie Mellon University<br/>

@@ -1,8 +1,7 @@
 ---
 layout: cv
+title: "CV"
 permalink: /cv/
-title: cv
-nav: false
-nav_order: 4
-cv_pdf: karish_cv_phd.pdf
+cv_pdf: /assets/pdf/karish_cv_phd.pdf
+description: "Curriculum Vitae"
 ---

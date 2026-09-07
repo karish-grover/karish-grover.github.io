@@ -3,18 +3,27 @@
  ******************************************************************************/
  
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #f7f6f1;
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$red-color-dark};
-  --global-hover-color: #{$red-color-dark};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
+  --global-text-color: #20302c;
+  --global-text-color-light: #66736f;
+  --global-theme-color: #2f6b57;
+  --global-hover-color: #3f5426;
+  --global-link-color: #556b2f;
+  --global-link-hover-color: #3f5426;
+  --global-link-decoration-color: rgba(85, 107, 47, .42);
+  --global-badge-bg-color: #2f6b57;
+  --global-badge-accent-bg-color: #8a4636;
+  --global-on-badge-color: #ffffff;
+  --global-footer-bg-color: #1d3830;
+  --global-footer-text-color: #dce6e1;
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
-  --global-card-bg-color: #{$white-color};
+  --global-divider-color: rgba(47, 76, 67, .16);
+  --global-card-bg-color: #fffefa;
+  --global-soft-bg-color: #eef1e8;
+  --global-accent-color: #9a513f;
+  --global-shadow-color: rgba(30, 52, 45, .10);
 
   .fa-sun {
     display : none;
@@ -34,18 +43,27 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #181c1b;
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
+  --global-text-color: #d9dfdc;
+  --global-text-color-light: #9da9a4;
+  --global-theme-color: #739688;
+  --global-hover-color: #a6b47e;
+  --global-link-color: #879864;
+  --global-link-hover-color: #a6b47e;
+  --global-link-decoration-color: rgba(135, 152, 100, .52);
+  --global-badge-bg-color: #496a5c;
+  --global-badge-accent-bg-color: #80584a;
+  --global-on-badge-color: #eef2ef;
+  --global-footer-bg-color: #111513;
+  --global-footer-text-color: #aeb8b3;
+  --global-footer-link-color: #e0e5e2;
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-divider-color: rgba(217, 223, 220, .13);
+  --global-card-bg-color: #1d2422;
+  --global-soft-bg-color: #222a27;
+  --global-accent-color: #c18a74;
+  --global-shadow-color: rgba(0, 0, 0, .20);
 
   .fa-sun {
     padding-left: 10px;

@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: publications by categories in reversed chronological order.
-years: [2025, 2024, 2022, 2021]
+title: Publications
+description: Peer-reviewed work in geometric learning, graph machine learning, and language.
+years: [2026, 2025, 2024, 2022, 2021]
 nav: true
 nav_order: 1
 ---

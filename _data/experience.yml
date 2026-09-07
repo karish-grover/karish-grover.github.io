@@ -1,0 +1,41 @@
+- role: "Visiting Researcher"
+  organization: "Meta AI"
+  logo: "/assets/img/meta-logo.png"
+  location: "Pittsburgh, PA"
+  dates: "Sep 2025–Present"
+  current: true
+
+- role: "Ph.D. Student"
+  organization: "Carnegie Mellon University"
+  logo: "/assets/img/cmu-logo.png"
+  location: "Pittsburgh, PA"
+  dates: "Aug 2023–Present"
+  current: true
+
+- role: "Applied Scientist Intern"
+  organization: "Amazon Science (AWS)"
+  logo: "/assets/img/amazon-logo.png"
+  location: "Santa Clara, CA"
+  dates: "May–Aug 2025"
+  current: false
+
+- role: "Applied Scientist Intern"
+  organization: "Amazon Science (AWS)"
+  logo: "/assets/img/amazon-logo.png"
+  location: "Santa Clara, CA"
+  dates: "May–Aug 2024"
+  current: false
+
+- role: "Research Intern"
+  organization: "Microsoft Research"
+  logo: "/assets/img/microsoft-logo.png"
+  location: "Bangalore, India"
+  dates: "Jan–Jul 2023"
+  current: false
+
+- role: "Applied Research Intern"
+  organization: "LinkedIn AI"
+  logo: "/assets/img/linkedin-logo.png"
+  location: "Bangalore, India"
+  dates: "May–Aug 2022"
+  current: false

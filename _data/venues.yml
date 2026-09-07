@@ -1,23 +1,27 @@
 "NAACL":
-  color: "var(--global-theme-color)"
+  color: "var(--global-badge-bg-color)"
   abbr: "NAACL"
 
 "ICLR":
-  color: "var(--global-theme-color)"
+  color: "var(--global-badge-bg-color)"
   abbr: "ICLR"
 
 "ICML":
-  color: "var(--global-theme-color)"
+  color: "var(--global-badge-bg-color)"
   abbr: "ICML"
 
 "WWW":
-  color: "var(--global-theme-color)"
+  color: "var(--global-badge-bg-color)"
   abbr: "WWW"
 
 "NeurIPS":
-  color: "var(--global-theme-color)"
+  color: "var(--global-badge-bg-color)"
   abbr: "NeurIPS"
 
 "SEPLN":
-  color: "var(--global-theme-color)"
+  color: "var(--global-badge-bg-color)"
   abbr: "SEPLN"
+
+"Patent":
+  color: "var(--global-badge-accent-bg-color)"
+  abbr: "Patent"

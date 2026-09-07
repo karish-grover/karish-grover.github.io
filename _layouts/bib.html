@@ -1,8 +1,8 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-      <div class="row no-gutters">
-        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+      <div class="row no-gutters publication-row{% unless entry.preview %} publication-row--text{% endunless %}">
+        <div class="col-sm-2 publication-visual {% if entry.preview %}preview{% else %}abbr{% endif %}">
           {%- if entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
             {% assign venue_style = null %}
@@ -28,9 +28,13 @@
 
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-0 rounded" src="{{ entry.preview }}">
+          <a class="publication-preview-link" href="{{ entry.preview }}" target="_blank" rel="noopener noreferrer" aria-label="View figure for {{ entry.title }}">
+            <img class="preview z-depth-0 rounded" src="{{ entry.preview }}" alt="Diagram from {{ entry.title }}" loading="lazy" decoding="async">
+          </a>
           {%- else -%}
-          <img class="preview z-depth-0 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
+          <a class="publication-preview-link" href="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View figure for {{ entry.title }}">
+            <img class="preview z-depth-0 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="Diagram from {{ entry.title }}" loading="lazy" decoding="async">
+          </a>
           {%- endif -%}
         {%- endif -%}
 
@@ -39,7 +43,7 @@
         </div>
         
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-9">
+        <div id="{{entry.key}}" class="col-sm-10 publication-copy">
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
@@ -147,7 +151,7 @@
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
           {%- if entry.arxiv %}
-            <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
           {%- if entry.bibtex_show %}
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>

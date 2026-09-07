@@ -1,9 +1,9 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Here are some cool projects that I have worked on!
-nav: true
+nav: false
 nav_order: 2
 display_categories: [nlproc, vision, dev]
 horizontal: true

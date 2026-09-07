@@ -2,15 +2,15 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Karish Grover
 first_name: Karish
 middle_name:
 last_name: Grover
 email: karishg@cs.cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a Ph.D. student at Carnegie Mellon University, advised by Prof. Christos Faloutsos and Prof. Geoffrey J. Gordon.
+  Karish Grover is a Ph.D. student in Machine Learning at Carnegie Mellon University working on geometric deep learning, graph machine learning, and language.
 footer_text: >
-keywords: karish grover, karish, cmu, phd, carnegie mellon university  # add your own keywords or leave empty
+keywords: Karish Grover, machine learning, geometric deep learning, graph machine learning, Carnegie Mellon University, CMU, ICML  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ▶︎  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -44,10 +44,10 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
-max_width: 1000px
+max_width: 920px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -55,9 +55,9 @@ max_width: 1000px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org meta tags in the HTML head
+og_image: /assets/img/karish_profile.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -67,7 +67,7 @@ github_username: karish-grover # your GitHub user name
 gitlab_username:  # your GitLab user name
 twitter_username: karishgrover # your Twitter handle
 linkedin_username: karishgrover # your LinkedIn user name
-scholar_userid: R_bSy7UAAAAJ&hl # your Google Scholar ID
+scholar_userid: R_bSy7UAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -141,7 +141,7 @@ collections:
     permalink: /projects/:path/
 
 news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-news_limit: # leave blank to include all the news in the `_news` folder
+news_limit: 5 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -298,7 +298,7 @@ enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
-enable_darkmode:            false   # enables switching between light/dark modes
+enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into

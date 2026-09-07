@@ -1,5 +1,7 @@
 
           <div class="publications">
-            <h2><img src = "assets/img/selected_papers.svg" width="40" height="40"></img> Selected Publications</h2>
+            <div class="section-heading-wrap">
+              <h2 class="section-heading">Selected publications</h2>
+            </div>
             {% bibliography -f papers -q @*[selected=true]* %}
           </div>

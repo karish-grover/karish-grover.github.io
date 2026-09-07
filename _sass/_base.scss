@@ -696,14 +696,14 @@ footer.sticky-bottom {
         }
 
         a.btn-honor {
-          color: #ffffff;
+          color: var(--global-on-badge-color);
           // border-radius: 1rem;
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
-          background-color: var(--global-theme-color);
+          background-color: var(--global-badge-bg-color);
           font-size: 0.7rem;
           font-weight: bold;
           white-space: nowrap;
@@ -2049,7 +2049,7 @@ html[data-theme='dark'] .navbar {
       width: 100%;
       max-width: 100%;
       padding: 0.22rem 0.3rem !important;
-      border-radius: 0.35rem !important;
+      border-radius: 0 !important;
       font-size: 0.68rem;
       letter-spacing: 0.06em;
       line-height: 1.25;

@@ -143,7 +143,7 @@ blockquote {
 
   .card-subtitle {
     color: var(--global-text-color);
-    font-size: 0.7rem;
+    font-size: 0.85rem;
   }
 
 
@@ -308,13 +308,34 @@ blockquote {
 }
 
 #light-toggle {
+  display: inline-flex;
+  width: 2.5rem;
+  height: 2.5rem;
   padding: 0;
   border: 0;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
   background-color: inherit;
   color: var(--global-text-color);
+
+  i {
+    display: inline-flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+
   &:hover {
     color: var(--global-hover-color);
   }
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 // Social (bottom)
@@ -1144,7 +1165,7 @@ tr{
   padding: 0.75rem 0.75rem 0.75rem 0;
   border: 0;
   color: var(--global-text-color-light);
-  font-size: 0.7rem;
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -1160,7 +1181,7 @@ tr{
   border-radius: 0;
   background: transparent;
   box-shadow: none;
-  font-size: 0.84rem;
+  font-size: 0.95rem;
   line-height: 1.52;
   overflow-wrap: break-word;
 
@@ -1184,7 +1205,7 @@ tr{
     border-radius: 0;
     color: var(--global-link-color);
     background: transparent;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 600;
     text-decoration: none;
     transition: border-color 0.15s ease, color 0.15s ease;
@@ -1318,7 +1339,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 0.98rem;
+  font-size: 1rem;
   line-height: 1.62;
   letter-spacing: 0;
   background: var(--global-bg-color);
@@ -1345,13 +1366,13 @@ h1, h2, h3, h4, h5, h6,
   background: var(--global-bg-color);
 
   .navbar-brand {
-    font-size: 0.98rem;
+    font-size: 1.05rem;
     letter-spacing: -0.02em;
   }
 
   .navbar-nav .nav-item .nav-link {
     padding: 0.45rem 0.65rem;
-    font-size: 0.82rem;
+    font-size: 0.9rem;
     font-weight: 500;
     letter-spacing: 0.01em;
   }
@@ -1423,7 +1444,7 @@ html[data-theme='dark'] .navbar {
     li {
       margin-bottom: 0.42rem;
       padding-left: 0.12rem;
-      font-size: 0.93rem;
+      font-size: 0.95rem;
       line-height: 1.58;
 
       &::marker {
@@ -1435,7 +1456,7 @@ html[data-theme='dark'] .navbar {
 
   .profile-background {
     color: var(--global-text-color-light);
-    font-size: 0.9rem;
+    font-size: 0.94rem;
     line-height: 1.6;
   }
 }
@@ -1491,13 +1512,13 @@ html[data-theme='dark'] .navbar {
   line-height: 1.35;
 
   strong {
-    font-size: 0.79rem;
+    font-size: 0.92rem;
     font-weight: 600;
   }
 
   .profile-role-affiliation {
     color: var(--global-text-color-light);
-    font-size: 0.68rem;
+    font-size: 0.84rem;
     letter-spacing: 0.01em;
 
     &::before {
@@ -1514,7 +1535,7 @@ html[data-theme='dark'] .navbar {
 .section-kicker,
 .support-label {
   color: var(--global-accent-color);
-  font-size: 0.67rem;
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1542,13 +1563,13 @@ html[data-theme='dark'] .navbar {
   justify-content: center;
   min-height: 0;
   gap: 0.32rem;
-  min-height: 1.9rem;
-  padding: 0.25rem 0.52rem;
+  min-height: 2.3rem;
+  padding: 0.36rem 0.66rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 0.25rem;
   color: var(--global-theme-color);
   background: transparent;
-  font-size: 0.76rem;
+  font-size: 0.84rem;
   font-weight: 600;
   box-shadow: none;
   line-height: 1;
@@ -1557,7 +1578,7 @@ html[data-theme='dark'] .navbar {
   i {
     width: 0.82rem;
     color: var(--global-text-color-light);
-    font-size: 0.68rem;
+    font-size: 0.78rem;
     text-align: center;
   }
 
@@ -1639,19 +1660,19 @@ html[data-theme='dark'] .navbar {
   strong {
     margin-bottom: 0.1rem;
     font-family: "Roboto Slab", serif;
-    font-size: 0.82rem;
+    font-size: 0.92rem;
   }
 
   span {
     color: var(--global-text-color-light);
-    font-size: 0.72rem;
+    font-size: 0.84rem;
     line-height: 1.4;
   }
 
   .profile-address {
     margin: 0.2rem 0 0;
     color: var(--global-text-color-light);
-    font-size: 0.7rem;
+    font-size: 0.82rem;
     font-style: normal;
     line-height: 1.4;
   }
@@ -1660,20 +1681,21 @@ html[data-theme='dark'] .navbar {
 .profile-social {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.2rem;
+  gap: 0.1rem;
   padding: 0 0 0.6rem;
 
   a {
     display: inline-flex;
-    width: 1.65rem;
-    height: 1.65rem;
+    width: 2.5rem;
+    height: 2.5rem;
     align-items: center;
     justify-content: center;
     border: 0;
     border-radius: 0;
     color: var(--global-text-color);
     background: transparent;
-    font-size: 0.82rem;
+    font-size: 1.25rem;
+    line-height: 1;
 
     &:hover {
       color: var(--global-theme-color);
@@ -1682,7 +1704,7 @@ html[data-theme='dark'] .navbar {
   }
 
   .cv-icon {
-    font-size: 0.66rem;
+    font-size: 1rem;
   }
 }
 
@@ -1700,7 +1722,7 @@ html[data-theme='dark'] .navbar {
 
   .support-item {
     display: grid;
-    grid-template-columns: 1.45rem minmax(0, 1fr);
+    grid-template-columns: 1.6rem minmax(0, 1fr);
     gap: 0.45rem;
     align-items: center;
     padding: 0.25rem 0;
@@ -1708,8 +1730,8 @@ html[data-theme='dark'] .navbar {
 
   .support-logo-wrap {
     display: flex;
-    width: 1.45rem;
-    height: 1.45rem;
+    width: 1.6rem;
+    height: 1.6rem;
     align-items: center;
     justify-content: center;
     border: 0;
@@ -1717,8 +1739,8 @@ html[data-theme='dark'] .navbar {
     background: transparent;
 
     img {
-      width: 1.2rem;
-      height: 1.2rem;
+      width: 1.32rem;
+      height: 1.32rem;
       max-width: none;
       object-fit: contain;
     }
@@ -1727,14 +1749,14 @@ html[data-theme='dark'] .navbar {
   a {
     display: flex;
     flex-direction: column;
-    font-size: 0.7rem;
+    font-size: 0.82rem;
     font-weight: 600;
     line-height: 1.35;
 
     small {
       margin-top: 0.08rem;
       color: var(--global-text-color-light);
-      font-size: 0.65rem;
+      font-size: 0.75rem;
       font-weight: 400;
     }
   }
@@ -1745,7 +1767,7 @@ html[data-theme='dark'] .navbar {
 
   > h2 {
     margin-bottom: 0.75rem;
-    font-size: 1.22rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
 }
@@ -1826,7 +1848,7 @@ html[data-theme='dark'] .navbar {
 
 .timeline-role {
   padding-right: 0;
-  font-size: 0.84rem;
+  font-size: 0.95rem;
   font-weight: 700;
 }
 
@@ -1839,13 +1861,13 @@ html[data-theme='dark'] .navbar {
 }
 
 .timeline-org {
-  font-size: 0.76rem;
+  font-size: 0.86rem;
 }
 
 .timeline-location,
 .timeline-dates {
   color: var(--global-text-color-light);
-  font-size: 0.72rem;
+  font-size: 0.82rem;
 }
 
 .timeline-location::before {
@@ -1878,7 +1900,7 @@ html[data-theme='dark'] .navbar {
   border-radius: 0;
   color: var(--global-theme-color);
   background: transparent;
-  font-size: 0.58rem;
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -1905,7 +1927,7 @@ html[data-theme='dark'] .navbar {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 1.22rem;
+  font-size: 1.3rem;
   font-weight: 500;
 }
 
@@ -1944,16 +1966,16 @@ html[data-theme='dark'] .navbar {
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    font-size: 0.68rem;
+    font-size: 0.82rem;
   }
 
   .news-content {
-    font-size: 0.82rem;
+    font-size: 0.95rem;
     line-height: 1.5;
   }
 
   .news-more a {
-    font-size: 0.82rem;
+    font-size: 0.9rem;
     font-weight: 600;
   }
 }
@@ -1967,7 +1989,7 @@ html[data-theme='dark'] .navbar {
     border-bottom: 1px solid var(--global-divider-color);
     color: var(--global-text-color-light);
     font-family: "Roboto", sans-serif;
-    font-size: 0.78rem;
+    font-size: 0.84rem;
     font-weight: 700;
     letter-spacing: 0.12em;
     text-align: left;
@@ -2050,7 +2072,7 @@ html[data-theme='dark'] .navbar {
       max-width: 100%;
       padding: 0.22rem 0.3rem !important;
       border-radius: 0 !important;
-      font-size: 0.68rem;
+      font-size: 0.8rem;
       letter-spacing: 0.06em;
       line-height: 1.25;
       white-space: normal;
@@ -2059,13 +2081,13 @@ html[data-theme='dark'] .navbar {
     .title {
       margin-bottom: 0.25rem;
       font-family: "Roboto Slab", serif;
-      font-size: 0.9rem;
+      font-size: 1rem;
       line-height: 1.35;
     }
 
     .author,
     .periodical {
-      font-size: 0.72rem;
+      font-size: 0.9rem;
       line-height: 1.45;
     }
 
@@ -2080,10 +2102,13 @@ html[data-theme='dark'] .navbar {
     .links a.btn,
     .links a.btn-year,
     .links a.btn-honor {
-      padding: 0.14rem 0.45rem;
+      display: inline-flex;
+      min-height: 1.9rem;
+      padding: 0.25rem 0.55rem;
+      align-items: center;
       border-color: var(--global-divider-color);
       border-radius: 0.35rem;
-      font-size: 0.68rem;
+      font-size: 0.8rem;
     }
   }
 }
@@ -2093,7 +2118,7 @@ footer.sticky-bottom {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   color: var(--global-text-color-light);
-  font-size: 0.78rem;
+  font-size: 0.85rem;
 }
 
 @media (max-width: 991.98px) {
@@ -2214,6 +2239,32 @@ footer.sticky-bottom {
     border-left: 0;
   }
 
+  .navbar .navbar-nav .nav-item .nav-link {
+    min-height: 2.5rem;
+    padding-top: 0.62rem;
+    padding-bottom: 0.62rem;
+    font-size: 0.95rem;
+  }
+
+  .profile-role-copy {
+    strong {
+      font-size: 0.95rem;
+    }
+
+    .profile-role-affiliation {
+      font-size: 0.88rem;
+    }
+  }
+
+  .profile-button {
+    min-height: 2.4rem;
+    font-size: 0.88rem;
+  }
+
+  .support-note a {
+    font-size: 0.84rem;
+  }
+
   .profile-intro p {
     font-size: 0.94rem;
     line-height: 1.62;
@@ -2248,6 +2299,10 @@ footer.sticky-bottom {
     margin-top: 0;
   }
 
+  .timeline-org {
+    font-size: 0.88rem;
+  }
+
   .publications ol.bibliography li {
     .publication-visual,
     .publication-visual.preview {
@@ -2265,13 +2320,27 @@ footer.sticky-bottom {
     gap: 0.2rem;
   }
 
+  .news {
+    .news-date {
+      font-size: 0.82rem;
+    }
+
+    .news-content {
+      font-size: 1rem;
+    }
+  }
+
+  .award-card {
+    font-size: 1rem;
+  }
+
   .post-header .post-title {
     font-size: 1.95rem;
   }
 
   .section-heading,
   .home-section > h2 {
-    font-size: 1.15rem;
+    font-size: 1.22rem;
   }
 }
 

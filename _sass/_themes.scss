@@ -25,13 +25,9 @@
   --global-accent-color: #9a513f;
   --global-shadow-color: rgba(30, 52, 45, .10);
 
-  .fa-sun {
-    display : none;
-  }
   .fa-moon {
-    padding-left: 10px;
-    padding-top: 12px;
-    display : block;
+    padding: 0;
+    display: block;
   }
 
   .repo-img-light {
@@ -64,15 +60,6 @@ html[data-theme='dark'] {
   --global-soft-bg-color: #222a27;
   --global-accent-color: #c18a74;
   --global-shadow-color: rgba(0, 0, 0, .20);
-
-  .fa-sun {
-    padding-left: 10px;
-    padding-top: 12px;
-    display : block;
-  }
-  .fa-moon {
-    display : none;
-  }
 
   .repo-img-light {
     display: none;
